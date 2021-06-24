@@ -20,6 +20,8 @@ I use longitudinal demographic datasets to better understand landscape scale dri
 
 4. Sedinger BS, Riecke TV, Nicolai CA, Woolstenhulme R, Henry WG, Stewart KM (**2019**) Experimental harvest regulations reveal that water availability during spring, not harvest, influences change in a waterfowl population. *Ecology and Evolution*, **9**, 12701-12709. 
 
+\  
+
 <center>
 ![](./images/path_analysis.png)
 </center>

@@ -18,7 +18,7 @@ The work of Stephen C. Stearns (1989, 1992) has driven the way I think about evo
 
 4. **Lohman MG**, Riecke TV, **Acevedo CR**, Person BT, Schmutz JA, Uher-Koch BD, Sedinger JS **(2019)** Changes in behavior are unable to disrupt a trophic cascade involving a specialist herbivore and its food plant. *Ecology and Evolution*, **9**, 5281-5291.
 
-
+\  
 <center>
 ![](./images/egg_position.png)
 </center>

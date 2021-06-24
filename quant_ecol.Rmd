@@ -21,6 +21,8 @@ I’ve often felt confused and overwhelmed by the complexity and intricacy of de
 
 5. Riecke TV, Leach AG, Gibson D, Sedinger JS **(2018)** Parameterizing the robust design in the BUGS language: Lifetime carry-over effects of environmental conditions during growth on a long-lived bird. *Methods in Ecology and Evolution*, **9**, 2294-2305.
 
+\  
+
 <center>
 ![](./images/IPM_figure.png)
 </center>

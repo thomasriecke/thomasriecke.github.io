@@ -16,6 +16,8 @@ We live in a rapidly changing world, where anthropogenic actions have tremendous
 
 3. Gibson D, Riecke TV, Keyes T, Depkin C, Fraser J, Catlin DH (**2018**) Application of Bayesian robust design model to assess the impacts of a hurricane on shorebird demography. *Ecosphere*, **9**, e02334.
 
+\  
+
 <center>
 ![](./images/size_selection.png)
 </center>
