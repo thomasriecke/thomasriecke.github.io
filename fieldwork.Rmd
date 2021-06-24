@@ -1,0 +1,81 @@
+---
+title: ""
+output: 
+  html_document:
+    toc: false
+---
+
+<style>
+.column-left{
+  float: left;
+  width: 49%;
+  text-align: left;
+}
+.column-center{
+  float: center;
+  width: 2%;
+  text-align: center;
+}
+.column-right{
+  float: right;
+  width: 49%;
+  text-align: right;
+}
+</style>
+
+### Fieldwork
+I've been unbelievably fortunate to live and work in some incredible parts of North America. Below you'll find a few images from some of these experiences, many of which were taken by incredibly talented field technicians and friends.
+
+<div class="container">
+
+
+<div class="column-left">
+
+
+![](./images/galveston_jetty.png)
+
+
+
+![](./images/izembek.png)
+
+![](./images/wolf_tracks.png)
+
+![](./images/lakeview_banding.png)
+
+![](./images/tide.png)
+
+</div>
+
+
+
+<div class="column-center">
+\
+</div>
+
+
+<div class="column-right">
+![](./images/brant.png)
+
+
+![](./images/anahuac_sunset.png)
+
+
+![](./images/brant_drive.png)
+
+
+
+![](./images/bear_tracks.png)
+
+<center>
+![](./images/rudu.png)
+</center>
+
+\  
+![](./images/tower.png)
+
+</div>
+
+
+
+</div>
+

@@ -19,9 +19,9 @@ navbar:
        - text: "Climate and demography"
          href: ./clim.html   
     - text: "Curriculum Vitae"
-      href: ./riecke.pdf           
-    - text: "Contact"
-      href: ./contact.html
+      href: ./riecke.pdf     
+    - text: "Fieldwork"
+      href: ./fieldwork.html         
   right:
     - icon: fab fa-github
       href: https://github.com/thomasriecke
