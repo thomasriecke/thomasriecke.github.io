@@ -1,6 +1,6 @@
 name: "Mywebsite"
 title: "Thomas Riecke"
-# type: inverse
+type: inverse
 left:
   - text: "Research"
     menu:
@@ -18,4 +18,4 @@ left:
     href: ./contact.html
 right:
   - icon: fa-github fa-lg
-    href: https://github.com/thomasriecke/
+    href: https://github.com/thomasriecke
