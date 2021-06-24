@@ -1,0 +1,19 @@
+---
+title: "Climate and demography"
+output: 
+  html_document:
+    toc: false
+---
+
+We live in a rapidly changing world, where anthropogenic actions have tremendous ecological consequences. In the short-term we experience climatic cycling, where inter- and intra-annual variation in temperature, precipitation, and extreme weather events have major effects on population trends of wild organisms. In the long-term, anthropogenic actions are changing global climates irrevocably. Understanding the effects of these changes is critically important for successful conservation ecology, particularly for specialist orgamisms with slow-paced life-history strategies.
+
+
+### Representative Publications
+
+1. Riecke TV, Williams PJ, Leach AG, Lohman MG, Sedinger JS (**2020**) Climate and habitat interact to affect phenotype in a long-lived herbivore. Ch. 4 *in* Riecke TV. (**2020**) Perturbations and heterogeneity: estimating demographic rates of brant in western Alaska. Ph. D. Dissertation, University of Nevada, Reno.
+
+2. Gibson D, Riecke TV, Keyes T, Depkin C, Fraser J, Catlin DH (**2018**) Application of Bayesian robust design model to assess the impacts of a hurricane on shorebird demography. *Ecosphere*, **9**, e02334.
+
+
+![](./images/path_analysis.png)
+

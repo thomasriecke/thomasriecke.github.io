@@ -6,19 +6,18 @@ output:
     toc: false
 
 navbar:
-  title: "About"
-  # type: inverse
+  title: "Home"
   left:
     - text: "Research"
       menu:
        - text: "Understanding quantitative ecology"
-         href: ./project1.html
+         href: ./quant_ecol.html
        - text: "Optimizing population models"
-         href: ./project2.html
+         href: ./pop_mod.html
        - text: "Life history theory and strategies"
-         href: ./project3.html
+         href: ./life_hist.html
        - text: "Climate and demography"
-         href: ./project4.html   
+         href: ./clim.html   
     - text: "Curriculum Vitae"
       href: ./riecke.pdf           
     - text: "Contact"
