@@ -23,6 +23,8 @@ output:
 }
 </style>
 
+
+
 <div class="container">
 
 
@@ -42,9 +44,7 @@ output:
 
 
 <div class="column-right">
-\
 My research focuses on using demographic data to better understand the complex relationships among environmental conditions, climate, anthropogenic actions, and population trends of wild organisms. I am currently a postdoc with Dr. Michael Schaub at the Swiss Ornithological Institute, where I investigate the demographic drivers of European passerine and North American waterbird populations.  I’ve been fortunate to work with exceptional people in wetlands and mountains from Alaska to the Swiss Alps, and I hope to continue my career working to benefit wildlife populations with inspiring people in beautiful places.
-\
 \
 \
 thomasvanceriecke at popular email service provided by Google

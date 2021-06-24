@@ -1,9 +1,7 @@
 name: "Mywebsite"
 title: "Thomas Riecke"
-type: inverse
+# type: inverse
 left:
-  - text: "About"
-    href: ./index.html
   - text: "Research"
     menu:
        - text: "Understanding quantitative ecology"
