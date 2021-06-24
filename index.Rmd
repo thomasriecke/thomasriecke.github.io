@@ -1,5 +1,5 @@
 ---
-title: " "
+title: "Thomas Vance Riecke"
 output: 
   html_document:
     toc: false
@@ -29,7 +29,7 @@ output:
 
 
 <div class="column-left">
-![](./images/tutakoke.png){height=350px}
+![](./images/tutakoke.png)
 </div>
 
 
