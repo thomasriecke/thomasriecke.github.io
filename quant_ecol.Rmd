@@ -11,12 +11,16 @@ I’ve often felt confused and overwhelmed by the complexity and intricacy of de
 
 ### Representative Publications
 
-1. Riecke TV, Williams PJ, Behnke TL, Gibson D, Leach AG, Sedinger BS, Street PA, Sedinger JS **(2019)** Integrated population models: model assumptions and inference. *Methods in Ecology and Evolution*, **10**, 1072-1082.
+1. Riecke TV, Gibson D, Kéry M, Schaub M. (*in review*) Leveraging detection information among species in community models of occupancy and abundance. *Ecology and Evolution*
 
-2. Riecke TV, Sedinger BS, Williams PJ, Sedinger JS. **(2019)** Estimating correlations among demographic parameters. *Ecology and Evolution*, **9**, 13521-13531.
+2. Riecke TV, Gibson D, Kéry M, Schaub M. (*in review*) Bayesian mark-recapture-resight-recovery models: increasing user flexibility in the BUGS language. *Ecosphere*
 
-3. Riecke TV, Leach AG, Gibson D, Sedinger JS **(2018)** Parameterizing the robust design in the BUGS language: Lifetime carry-over effects of environmental conditions during growth on a long-lived bird. *Methods in Ecology and Evolution*, **9**, 2294-2305.
+3. Riecke TV, Williams PJ, Behnke TL, Gibson D, Leach AG, Sedinger BS, Street PA, Sedinger JS **(2019)** Integrated population models: model assumptions and inference. *Methods in Ecology and Evolution*, **10**, 1072-1082.
 
+4. Riecke TV, Sedinger BS, Williams PJ, Sedinger JS. **(2019)** Estimating correlations among demographic parameters. *Ecology and Evolution*, **9**, 13521-13531.
 
+5. Riecke TV, Leach AG, Gibson D, Sedinger JS **(2018)** Parameterizing the robust design in the BUGS language: Lifetime carry-over effects of environmental conditions during growth on a long-lived bird. *Methods in Ecology and Evolution*, **9**, 2294-2305.
+
+<center>
 ![](./images/IPM_figure.png)
-
+</center>

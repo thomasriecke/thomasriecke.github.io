@@ -25,3 +25,5 @@ navbar:
   right:
     - icon: fab fa-github
       href: https://github.com/thomasriecke
+    - icon: fa fa-graduation-cap
+      href: https://scholar.google.com/citations?user=mVbPz7UAAAAJ%26hl=en
