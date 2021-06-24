@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Fieldwork"
 output: 
   html_document:
     toc: false
@@ -23,7 +23,7 @@ output:
 }
 </style>
 
-### Fieldwork
+
 I've been unbelievably fortunate to live and work in some incredible parts of North America. Below you'll find a few images from some of these experiences, many of which were taken by incredibly talented field technicians and friends.
 
 <div class="container">
