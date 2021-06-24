@@ -1,9 +1,9 @@
 name: "My new website"
-output_dir: 'docs'
+output_dir: 'main'
 output:
   html_document:
     theme: journal
-    highlight: zenburn
+    # highlight: null
     toc: false
     toc_depth: 2
     toc_float:
