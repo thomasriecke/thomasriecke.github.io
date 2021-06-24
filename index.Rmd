@@ -1,0 +1,58 @@
+---
+title: " "
+output: 
+  html_document:
+    toc: FALSE
+---
+
+<style>
+.column-left{
+  float: left;
+  width: 47.5%;
+  text-align: left;
+}
+.column-center{
+  float: center;
+  width: 5%;
+  text-align: left;
+}
+.column-right{
+  float: right;
+  width: 47.5%;
+  text-align: left;
+}
+</style>
+
+<div class="container">
+
+
+<div class="column-left">
+![](./images/tutakoke.png){height=350px}
+</div>
+
+
+
+
+<div class="column-center">
+\
+</div>
+
+
+
+
+
+<div class="column-right">
+\
+My research focuses on using demographic data to better understand the complex relationships among environmental conditions, climate, anthropogenic actions, and population trends of wild organisms. I am currently a postdoc with Dr. Michael Schaub at the Swiss Ornithological Institute, where I investigate the demographic drivers of European passerine and North American waterbird populations.  I’ve been fortunate to work with exceptional people in wetlands and mountains from Alaska to the Swiss Alps, and I hope to continue my career working to benefit wildlife populations with inspiring people in beautiful places.
+\
+thomasvanceriecke @ popular google 
+</div>
+
+
+</div>
+
+\
+\
+\
+
+

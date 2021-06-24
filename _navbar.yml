@@ -1,0 +1,21 @@
+name: "Mywebsite"
+title: "Thomas Riecke"
+# type: inverse
+left:
+  - text: "Research"
+    menu:
+       - text: "Understanding quantitative ecology"
+         href: ./project1.html
+       - text: "Optimizing population models"
+         href: ./project2.html
+       - text: "Life history theory and strategies"
+         href: ./project3.html
+       - text: "Climate and demography"
+         href: ./project4.html   
+  - text: "Curriculum Vitae"
+    href: ./riecke.pdf           
+  - text: "Contact"
+    href: ./contact.html
+right:
+  - icon: fa-github fa-lg
+    href: https://github.com/thomasriecke/
