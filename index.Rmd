@@ -1,56 +1,19 @@
 ---
-title: "Thomas Vance Riecke"
+title: "Thomas V Riecke"
 output: 
   html_document:
     toc: false
 ---
+thomasvanceriecke at popular email service provided by Google
 
-<style>
-.column-left{
-  float: left;
-  width: 47.5%;
-  text-align: left;
-}
-.column-center{
-  float: center;
-  width: 5%;
-  text-align: left;
-}
-.column-right{
-  float: right;
-  width: 47.5%;
-  text-align: left;
-}
-</style>
-
-
-
-<div class="container">
-
-
-<div class="column-left">
-![](./images/tutakoke.png)
-</div>
-
-
-
-
-<div class="column-center">
-\
-</div>
-
-
-
-
-
-<div class="column-right">
 My research focuses on using demographic data to better understand the complex relationships among environmental conditions, climate, anthropogenic actions, and population trends of wild organisms. I use models to quantify the contribution of different demographic components to population growth rates, and seek to work collaboratively across a range of ecological and evolutionary disciplines to answer important questions in the fields of applied ecology and conservation biology. I am currently a postdoc with Dr. Michael Schaub at the Swiss Ornithological Institute, where I investigate the demographic drivers of European passerine and North American waterbird populations.  I’ve been fortunate to work with exceptional people in wetlands and mountains from Alaska to the Swiss Alps, and I hope to continue my career working to benefit wildlife populations with inspiring people in beautiful places.
 
 
-thomasvanceriecke at popular email service provided by Google
-</div>
 
 
+<center>
+![](./images/tutakoke.png)
+</center>
 
-</div>
+
 
