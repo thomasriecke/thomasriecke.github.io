@@ -10,13 +10,11 @@ The work of Stephen C. Stearns (1989, 1992) has driven the way I think about evo
 
 
 ### Representative Publications
-1. **Acevedo CR**, Riecke TV, Leach AG, **Lohman MG**, Sedinger JS. **(2020)** Are all eggs created equal? Hierarchical models reveal fitness constraints in a long-lived specialist herbivore. *Journal of Animal Ecology*, **89**, 1978-1987.
+1. Acevedo CR, Riecke TV, Leach AG, Lohman MG, Sedinger JS. **(2020)** Are all eggs created equal? Hierarchical models reveal fitness constraints in a long-lived specialist herbivore. *Journal of Animal Ecology*, **89**, 1978-1987.
 
 2. Leach AG, Riecke TV, Sedinger JS, Ward DH, Boyd WS **(2020)** Mate fidelity improves survival and breeding propensity of a long-lived bird. *Journal of Animal Ecology*, **89**, 2290-2299.
 
 3. Leach AG, Sedinger JS, Riecke TV, Van Dellen AW, Ward DH, Boyd WS **(2019)** Brood size affects future reproduction in a long-lived bird with precocial young. *The American Naturalist*, **193**, 458-471.
-
-4. **Lohman MG**, Riecke TV, **Acevedo CR**, Person BT, Schmutz JA, Uher-Koch BD, Sedinger JS **(2019)** Changes in behavior are unable to disrupt a trophic cascade involving a specialist herbivore and its food plant. *Ecology and Evolution*, **9**, 5281-5291.
 
 \  
 <center>

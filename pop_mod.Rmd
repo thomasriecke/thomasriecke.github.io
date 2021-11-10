@@ -12,11 +12,11 @@ I use longitudinal demographic datasets to better understand landscape scale dri
 
 ### Representative Publications
 
-1. Riecke TV, Sedinger BS, Arnold TW, Gibson D, Koons DN, **Lohman MG**, Schaub M, Williams PJ, Sedinger JS (*in review*) A hierarchical model for jointly assessing ecological and anthropogenic impacts on animal demography. *Journal of Animal Ecology*.
+1. Riecke TV, Sedinger BS, Arnold TW, Gibson D, Koons DN, Lohman MG, Schaub M, Williams PJ, Sedinger JS (*in revision*) A hierarchical model for jointly assessing ecological and anthropogenic impacts on animal demography. *Journal of Animal Ecology*.
 
-2. Riecke TV, **Lohman MG**, Sedinger BS, Arnold TW, Feldheim CL, Koons DN, Rohwer FC, Schaub M, Williams PJ, Sedinger JS (*in revision*) Multicollinearity among demographic drivers affects applied conservation inference. *Journal of Animal Ecology*.
+2. Riecke TV, Lohman MG, Sedinger BS, Arnold TW, Feldheim CL, Koons DN, Rohwer FC, Schaub M, Williams PJ, Sedinger JS (*in revision*) Multicollinearity among demographic drivers affects applied conservation inference. *Journal of Animal Ecology*.
 
-3. Koons DN, Riecke TV, Boomer GS, Sedinger BS, Sedinger JS, Williams PJ, Arnold TW. (*in review*) Ecological persistence and forecasting: insights for improving Adaptive Management. *Biological Conservation*.
+3. Koons DN, Riecke TV, Boomer GS, Sedinger BS, Sedinger JS, Williams PJ, Arnold TW. (*in review*) Ecological persistence and forecasting: insights for improving Adaptive Management.
 
 4. Sedinger BS, Riecke TV, Nicolai CA, Woolstenhulme R, Henry WG, Stewart KM (**2019**) Experimental harvest regulations reveal that water availability during spring, not harvest, influences change in a waterfowl population. *Ecology and Evolution*, **9**, 12701-12709. 
 

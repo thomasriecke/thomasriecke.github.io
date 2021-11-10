@@ -10,11 +10,13 @@ We live in a rapidly changing world, where anthropogenic actions have tremendous
 
 ### Representative Publications
 
-1. Riecke TV, Williams PJ, Leach AG, **Lohman MG**, Sedinger JS (**2020**) Climate and habitat interact to affect phenotype in a long-lived herbivore. Ch. 4 *in* Riecke TV. (**2020**) Perturbations and heterogeneity: estimating demographic rates of brant in western Alaska. Ph. D. Dissertation, University of Nevada, Reno.
+1. Riecke TV, Williams PJ, Leach AG, Lohman MG, Sedinger JS (**2020**) Climate and habitat interact to affect phenotype in a long-lived herbivore. Ch. 4 *in* Riecke TV. (**2020**) Perturbations and heterogeneity: estimating demographic rates of brant in western Alaska. Ph. D. Dissertation, University of Nevada, Reno.
 
-2. Riecke TV, Leach AG, **Acevedo CR**, **Lohman MG**, Williams PJ, Sedinger JS (**2020**) Estimating parameter covariance improves inference and action in the face of climate and landscape change. Ch. 4 *in* Riecke TV. (**2020**) Perturbations and heterogeneity: estimating demographic rates of brant in western Alaska. Ph. D. Dissertation, University of Nevada, Reno.
+2. Riecke TV, Leach AG, Acevedo CR, Lohman MG, Williams PJ, Sedinger JS (**2020**) Estimating parameter covariance improves inference and action in the face of climate and landscape change. Ch. 4 *in* Riecke TV. (**2020**) Perturbations and heterogeneity: estimating demographic rates of brant in western Alaska. Ph. D. Dissertation, University of Nevada, Reno.
 
 3. Gibson D, Riecke TV, Keyes T, Depkin C, Fraser J, Catlin DH (**2018**) Application of Bayesian robust design model to assess the impacts of a hurricane on shorebird demography. *Ecosphere*, **9**, e02334.
+
+4. Lohman MG, Riecke TV, Acevedo CR, Person BT, Schmutz JA, Uher-Koch BD, Sedinger JS **(2019)** Changes in behavior are unable to disrupt a trophic cascade involving a specialist herbivore and its food plant. *Ecology and Evolution*, **9**, 5281-5291.
 
 \  
 
