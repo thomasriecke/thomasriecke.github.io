@@ -11,7 +11,7 @@ I’ve often felt confused and overwhelmed by the complexity and intricacy of de
 
 ### Representative Publications
 
-1. Riecke TV, Gibson D, Kéry M, Schaub M. (*in review*) Leveraging detection information among species in community models of occupancy and abundance. *Ecology and Evolution*
+1. Riecke TV, Gibson D, Kéry M, Schaub M. (*in press*) Leveraging detection information among species in community models of occupancy and abundance. *Ecology and Evolution*
 
 2. Riecke TV, Gibson D, Leach AG, Lindberg MS, Schaub M, Sedinger JS. (*in press*) Bayesian mark-recapture-resight-recovery models: increasing user flexibility in the BUGS language. *Ecosphere*
 
