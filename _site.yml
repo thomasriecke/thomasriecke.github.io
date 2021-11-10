@@ -26,4 +26,6 @@ navbar:
     - icon: fab fa-github
       href: https://github.com/thomasriecke
     - icon: fa fa-graduation-cap
-      href: https://scholar.google.com/citations?user=mVbPz7UAAAAJ&hl=en
+      href: 'https://scholar.google.com/citations?user=mVbPz7UAAAAJ&hl=en'
+    - icon: fa fa-researchgate
+      href: https://www.researchgate.net/profile/Thomas-Riecke
