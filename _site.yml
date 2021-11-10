@@ -5,7 +5,7 @@ output:
     theme: journal
     toc: false
     css: ./site_libs/academicons-1.9.1/css/academicons.min.css
-# <link rel="stylesheet" href="./images/academicons-1.9.1/css/academicons.min.css"/>
+
 
 
 
