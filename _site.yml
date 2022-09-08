@@ -23,7 +23,7 @@ navbar:
        - text: "Climate and demography"
          href: ./clim.html   
     - text: "Curriculum Vitae"
-      href: ./riecke.pdf     
+      href: ./Riecke_CV_web.pdf     
     - text: "Fieldwork"
       href: ./fieldwork.html         
   right:
