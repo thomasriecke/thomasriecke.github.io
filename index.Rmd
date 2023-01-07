@@ -1,8 +1,10 @@
 ---
 title: "Thomas V Riecke"
-output: 
+output:
+  pdf_document:
+    toc: no
   html_document:
-    toc: false
+    toc: no
 ---
 thomasvanceriecke at popular email service provided by Google
 
