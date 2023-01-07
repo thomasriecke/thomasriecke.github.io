@@ -10,7 +10,7 @@ I’ve often felt confused and overwhelmed by the complexity and intricacy of de
 
 
 ### Representative Publications
-1. Riecke TV, Gibson D, Sedinger JS, Schaub M. (**2022**) Zero-inflated count distributions for capture-mark-reencounter data. *Ecology and Evolution*, **12**.
+1. Riecke TV, Gibson D, Sedinger JS, Schaub M. (**2022**) Zero-inflated count distributions for capture-mark-reencounter data. *Ecology and Evolution*, **12**, e9274.
 
 2. Street PA, Riecke TV, Williams PJ, Behnke TL, Sedinger JS. (**2022**) Estimating survival and adoption rates of dependent juveniles. *Ecology and Evolution*, **12**, e9005.
 
