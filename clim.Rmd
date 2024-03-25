@@ -5,12 +5,19 @@ output:
     toc: false
 ---
 
+<style>
+  body{
+  font-family: Helvetica;
+  font-size: 11pt;
+}
+</style>
+
 We live in a rapidly changing world, where anthropogenic actions have tremendous ecological consequences. In the short-term we experience climatic cycling, where inter- and intra-annual variation in temperature, precipitation, and extreme weather events have major effects on population trends of wild organisms. In the long-term, anthropogenic actions are changing global climates irrevocably. Understanding the effects of these changes is critically important for successful conservation ecology, particularly for specialist orgamisms with slow-paced life-history strategies.
 
 
 ### Representative Publications
 
-1. Forister ML, Grames EM, Halsch CA, Burls KJ, Carroll CF, Bell KL, Jahner JP, Bradford T, Zhang J, Cong Q, Grishin NV, Glassberg J, Shapiro AM, Riecke TV (**in revision**) Assessing status and risk for western butterflies in the context of climate change, demographic uncertainty, and heterogeneous data sources. *Ecological Monographs.*
+1. Forister ML, Grames EM, Halsch CA, Burls KJ, Carroll CF, Bell KL, Jahner JP, Bradford T, Zhang J, Cong Q, Grishin NV, Glassberg J, Shapiro AM, Riecke TV (**2023**) Assessing status and risk for western butterflies in the context of climate change, demographic uncertainty, and heterogeneous data sources. *Ecological Monographs*, **93**, e1584.
 
 2. Gibson D, Riecke TV, Catlin DH, Hunt KL, Friedrich MJ, Karpanty SM, Koons DK, Fraser JD **(2023)** Climate change and industrial fishing practices codetermine survival of a long-lived seabird. *Global Change Biology*, **29**, 324-340.
 

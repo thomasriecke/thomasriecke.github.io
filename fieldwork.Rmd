@@ -5,7 +5,12 @@ output:
     toc: false
 ---
 
+
 <style>
+  body{
+  font-family: Helvetica;
+  font-size: 11pt;
+}
 .column-left{
   float: left;
   width: 49%;

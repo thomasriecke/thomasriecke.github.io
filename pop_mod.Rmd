@@ -5,6 +5,13 @@ output:
     toc: false
 ---
 
+<style>
+  body{
+  font-family: Helvetica;
+  font-size: 11pt;
+}
+</style>
+
 The development and application of predictive population models in the face of climate change and habitat degradation & loss is critical for successful applied conservation ecology. Models that are unable to account for changing systems, or linkages between drivers of demographic rates, will not be useful as conservation ecology progresses. These models are particularly critical when applied to species that are used consumptively, where understanding the impacts of harvest allows managers to maximize sustainable use and the efficacy of conservation efforts. Finally, models must accurately forecast ecological processes, or they have limited utility.
 
 I use longitudinal demographic datasets to better understand landscape scale drivers of population trends. Together with a large number of collaborators, I develop novel analytical techniques and models that allow for incorporating uncertainty regarding processes that drive demographic parameters, and more accurately forecast population change given anthropogenic impacts such as harvest, land use, and climate change.

@@ -13,7 +13,7 @@
 
 <title>Understanding quantitative ecology</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
@@ -144,11 +144,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -177,8 +181,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -186,16 +190,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -309,17 +306,55 @@ $(document).ready(function () {
 </div>
 
 
-<p>I’ve often felt confused and overwhelmed by the complexity and intricacy of demographic models. However, I’ve tried to develop my skills as a quantitative ecologist in order to better understand and predict demographic rates of wildlife populations. I believe that an understanding of these processes is critical for successful applied ecology and conservation biology. Additionally, communicating these processes and model structures can be challenging, where many relatively simple ideas are hidden behind layers of formulas, likelihoods, computer code, and jargon. I seek to develop effective ways to communicate how these models work, and how we can use them to understand biological processes and benefit wildlife populations.</p>
+<style>
+  body{
+  font-family: Helvetica;
+  font-size: 11pt;
+}
+</style>
+<p>I’ve often felt confused and overwhelmed by the complexity and
+intricacy of demographic models. However, I’ve tried to develop my
+skills as a quantitative ecologist in order to better understand and
+predict demographic rates of wildlife populations. I believe that an
+understanding of these processes is critical for successful applied
+ecology and conservation biology. Additionally, communicating these
+processes and model structures can be challenging, where many relatively
+simple ideas are hidden behind layers of formulas, likelihoods, computer
+code, and jargon. I seek to develop effective ways to communicate how
+these models work, and how we can use them to understand biological
+processes and benefit wildlife populations.</p>
 <div id="representative-publications" class="section level3">
 <h3>Representative Publications</h3>
 <ol style="list-style-type: decimal">
-<li><p>Riecke TV, Gibson D, Sedinger JS, Schaub M. (<strong>2022</strong>) Zero-inflated count distributions for capture-mark-reencounter data. <em>Ecology and Evolution</em>, <strong>12</strong>, e9274.</p></li>
-<li><p>Street PA, Riecke TV, Williams PJ, Behnke TL, Sedinger JS. (<strong>2022</strong>) Estimating survival and adoption rates of dependent juveniles. <em>Ecology and Evolution</em>, <strong>12</strong>, e9005.</p></li>
-<li><p>Riecke TV, Gibson D, Kéry M, Schaub M. (<strong>2021</strong>) Sharing detection heterogeneity information among species in community models of occupancy and abundance can strengthen inference. <em>Ecology and Evolution</em>, <strong>11</strong>, 18125-18135.</p></li>
-<li><p>Riecke TV, Gibson D, Leach AG, Lindberg MS, Schaub M, Sedinger JS. (<strong>2021</strong>) Bayesian mark-recapture-resight-recovery models: increasing user flexibility in the BUGS language. <em>Ecosphere</em>, <strong>12</strong>, e03810.</p></li>
-<li><p>Riecke TV, Williams PJ, Behnke TL, Gibson D, Leach AG, Sedinger BS, Street PA, Sedinger JS <strong>(2019)</strong> Integrated population models: model assumptions and inference. <em>Methods in Ecology and Evolution</em>, <strong>10</strong>, 1072-1082.</p></li>
-<li><p>Riecke TV, Sedinger BS, Williams PJ, Sedinger JS. <strong>(2019)</strong> Estimating correlations among demographic parameters. <em>Ecology and Evolution</em>, <strong>9</strong>, 13521-13531.</p></li>
-<li><p>Riecke TV, Leach AG, Gibson D, Sedinger JS <strong>(2018)</strong> Parameterizing the robust design in the BUGS language: Lifetime carry-over effects of environmental conditions during growth on a long-lived bird. <em>Methods in Ecology and Evolution</em>, <strong>9</strong>, 2294-2305.</p></li>
+<li><p>Riecke TV, Gibson D, Sedinger JS, Schaub M.
+(<strong>2022</strong>) Zero-inflated count distributions for
+capture-mark-reencounter data. <em>Ecology and Evolution</em>,
+<strong>12</strong>, e9274.</p></li>
+<li><p>Street PA, Riecke TV, Williams PJ, Behnke TL, Sedinger JS.
+(<strong>2022</strong>) Estimating survival and adoption rates of
+dependent juveniles. <em>Ecology and Evolution</em>,
+<strong>12</strong>, e9005.</p></li>
+<li><p>Riecke TV, Gibson D, Kéry M, Schaub M. (<strong>2021</strong>)
+Sharing detection heterogeneity information among species in community
+models of occupancy and abundance can strengthen inference. <em>Ecology
+and Evolution</em>, <strong>11</strong>, 18125-18135.</p></li>
+<li><p>Riecke TV, Gibson D, Leach AG, Lindberg MS, Schaub M, Sedinger
+JS. (<strong>2021</strong>) Bayesian mark-recapture-resight-recovery
+models: increasing user flexibility in the BUGS language.
+<em>Ecosphere</em>, <strong>12</strong>, e03810.</p></li>
+<li><p>Riecke TV, Williams PJ, Behnke TL, Gibson D, Leach AG, Sedinger
+BS, Street PA, Sedinger JS <strong>(2019)</strong> Integrated population
+models: model assumptions and inference. <em>Methods in Ecology and
+Evolution</em>, <strong>10</strong>, 1072-1082.</p></li>
+<li><p>Riecke TV, Sedinger BS, Williams PJ, Sedinger JS.
+<strong>(2019)</strong> Estimating correlations among demographic
+parameters. <em>Ecology and Evolution</em>, <strong>9</strong>,
+13521-13531.</p></li>
+<li><p>Riecke TV, Leach AG, Gibson D, Sedinger JS
+<strong>(2018)</strong> Parameterizing the robust design in the BUGS
+language: Lifetime carry-over effects of environmental conditions during
+growth on a long-lived bird. <em>Methods in Ecology and Evolution</em>,
+<strong>9</strong>, 2294-2305.</p></li>
 </ol>
 <p> </p>
 <center>

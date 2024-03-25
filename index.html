@@ -13,7 +13,7 @@
 
 <title>Thomas V Riecke</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
@@ -144,11 +144,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -177,8 +181,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -186,16 +190,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -309,8 +306,27 @@ $(document).ready(function () {
 </div>
 
 
+<style>
+  body{
+  font-family: Helvetica;
+  font-size: 11pt;
+}
+</style>
 <p>thomasvanceriecke at popular email service provided by Google</p>
-<p>My research focuses on using demographic data to better understand the complex relationships among environmental conditions, climate, anthropogenic actions, and population trends of wild organisms. I use models to quantify the contribution of different demographic components to population growth rates, and seek to work collaboratively across a range of ecological and evolutionary disciplines to answer important questions in the fields of applied ecology and conservation biology. I recently (2023) joined the faculty at the University of Montana, where I serve as the James K Ringelman Chair in Waterfowl Conservation. In that role, I primarily investigate the ecological drivers of North American waterfowl populations. I’ve been fortunate to work with exceptional people in wetlands and mountains from Alaska to the Swiss Alps, and I hope to continue my career working to benefit wildlife populations with inspiring people in beautiful places.</p>
+<p>My research focuses on using demographic data to better understand
+the complex relationships among environmental conditions, climate,
+anthropogenic actions, and population trends of wild organisms. I use
+models to quantify the contribution of different demographic components
+to population growth rates, and seek to work collaboratively across a
+range of ecological and evolutionary disciplines to answer important
+questions in the fields of applied ecology and conservation biology. I
+recently (2023) joined the faculty at the University of Montana, where I
+serve as the James K Ringelman Chair in Waterfowl Conservation. In that
+role, I primarily investigate the ecological drivers of North American
+waterfowl populations. I’ve been fortunate to work with exceptional
+people in wetlands and mountains from Alaska to the Swiss Alps, and I
+hope to continue my career working to benefit wildlife populations with
+inspiring people in beautiful places.</p>
 <center>
 <img src="images/tutakoke.png" />
 </center>

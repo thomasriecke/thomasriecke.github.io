@@ -13,7 +13,7 @@
 
 <title>Climate and demography</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
@@ -144,11 +144,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -177,8 +181,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -186,16 +190,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -309,14 +306,44 @@ $(document).ready(function () {
 </div>
 
 
-<p>We live in a rapidly changing world, where anthropogenic actions have tremendous ecological consequences. In the short-term we experience climatic cycling, where inter- and intra-annual variation in temperature, precipitation, and extreme weather events have major effects on population trends of wild organisms. In the long-term, anthropogenic actions are changing global climates irrevocably. Understanding the effects of these changes is critically important for successful conservation ecology, particularly for specialist orgamisms with slow-paced life-history strategies.</p>
+<style>
+  body{
+  font-family: Helvetica;
+  font-size: 11pt;
+}
+</style>
+<p>We live in a rapidly changing world, where anthropogenic actions have
+tremendous ecological consequences. In the short-term we experience
+climatic cycling, where inter- and intra-annual variation in
+temperature, precipitation, and extreme weather events have major
+effects on population trends of wild organisms. In the long-term,
+anthropogenic actions are changing global climates irrevocably.
+Understanding the effects of these changes is critically important for
+successful conservation ecology, particularly for specialist orgamisms
+with slow-paced life-history strategies.</p>
 <div id="representative-publications" class="section level3">
 <h3>Representative Publications</h3>
 <ol style="list-style-type: decimal">
-<li><p>Forister ML, Grames EM, Halsch CA, Burls KJ, Carroll CF, Bell KL, Jahner JP, Bradford T, Zhang J, Cong Q, Grishin NV, Glassberg J, Shapiro AM, Riecke TV (<strong>in revision</strong>) Assessing status and risk for western butterflies in the context of climate change, demographic uncertainty, and heterogeneous data sources. <em>Ecological Monographs.</em></p></li>
-<li><p>Gibson D, Riecke TV, Catlin DH, Hunt KL, Friedrich MJ, Karpanty SM, Koons DK, Fraser JD <strong>(2023)</strong> Climate change and industrial fishing practices codetermine survival of a long-lived seabird. <em>Global Change Biology</em>, <strong>29</strong>, 324-340.</p></li>
-<li><p>Lohman MG, Riecke TV, Acevedo CR, Person BT, Schmutz JA, Uher-Koch BD, Sedinger JS <strong>(2019)</strong> Changes in behavior are unable to disrupt a trophic cascade involving a specialist herbivore and its food plant. <em>Ecology and Evolution</em>, <strong>9</strong>, 5281-5291.</p></li>
-<li><p>Gibson D, Riecke TV, Keyes T, Depkin C, Fraser J, Catlin DH (<strong>2018</strong>) Application of Bayesian robust design model to assess the impacts of a hurricane on shorebird demography. <em>Ecosphere</em>, <strong>9</strong>, e02334.</p></li>
+<li><p>Forister ML, Grames EM, Halsch CA, Burls KJ, Carroll CF, Bell KL,
+Jahner JP, Bradford T, Zhang J, Cong Q, Grishin NV, Glassberg J, Shapiro
+AM, Riecke TV (<strong>2023</strong>) Assessing status and risk for
+western butterflies in the context of climate change, demographic
+uncertainty, and heterogeneous data sources. <em>Ecological
+Monographs</em>, <strong>93</strong>, e1584.</p></li>
+<li><p>Gibson D, Riecke TV, Catlin DH, Hunt KL, Friedrich MJ, Karpanty
+SM, Koons DK, Fraser JD <strong>(2023)</strong> Climate change and
+industrial fishing practices codetermine survival of a long-lived
+seabird. <em>Global Change Biology</em>, <strong>29</strong>,
+324-340.</p></li>
+<li><p>Lohman MG, Riecke TV, Acevedo CR, Person BT, Schmutz JA,
+Uher-Koch BD, Sedinger JS <strong>(2019)</strong> Changes in behavior
+are unable to disrupt a trophic cascade involving a specialist herbivore
+and its food plant. <em>Ecology and Evolution</em>, <strong>9</strong>,
+5281-5291.</p></li>
+<li><p>Gibson D, Riecke TV, Keyes T, Depkin C, Fraser J, Catlin DH
+(<strong>2018</strong>) Application of Bayesian robust design model to
+assess the impacts of a hurricane on shorebird demography.
+<em>Ecosphere</em>, <strong>9</strong>, e02334.</p></li>
 </ol>
 <p> </p>
 <center>

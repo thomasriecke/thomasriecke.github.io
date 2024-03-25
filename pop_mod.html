@@ -13,7 +13,7 @@
 
 <title>Optimizing population models</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
@@ -144,11 +144,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -177,8 +181,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -186,16 +190,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -309,15 +306,52 @@ $(document).ready(function () {
 </div>
 
 
-<p>The development and application of predictive population models in the face of climate change and habitat degradation &amp; loss is critical for successful applied conservation ecology. Models that are unable to account for changing systems, or linkages between drivers of demographic rates, will not be useful as conservation ecology progresses. These models are particularly critical when applied to species that are used consumptively, where understanding the impacts of harvest allows managers to maximize sustainable use and the efficacy of conservation efforts. Finally, models must accurately forecast ecological processes, or they have limited utility.</p>
-<p>I use longitudinal demographic datasets to better understand landscape scale drivers of population trends. Together with a large number of collaborators, I develop novel analytical techniques and models that allow for incorporating uncertainty regarding processes that drive demographic parameters, and more accurately forecast population change given anthropogenic impacts such as harvest, land use, and climate change.</p>
+<style>
+  body{
+  font-family: Helvetica;
+  font-size: 11pt;
+}
+</style>
+<p>The development and application of predictive population models in
+the face of climate change and habitat degradation &amp; loss is
+critical for successful applied conservation ecology. Models that are
+unable to account for changing systems, or linkages between drivers of
+demographic rates, will not be useful as conservation ecology
+progresses. These models are particularly critical when applied to
+species that are used consumptively, where understanding the impacts of
+harvest allows managers to maximize sustainable use and the efficacy of
+conservation efforts. Finally, models must accurately forecast
+ecological processes, or they have limited utility.</p>
+<p>I use longitudinal demographic datasets to better understand
+landscape scale drivers of population trends. Together with a large
+number of collaborators, I develop novel analytical techniques and
+models that allow for incorporating uncertainty regarding processes that
+drive demographic parameters, and more accurately forecast population
+change given anthropogenic impacts such as harvest, land use, and
+climate change.</p>
 <div id="representative-publications" class="section level3">
 <h3>Representative Publications</h3>
 <ol style="list-style-type: decimal">
-<li><p>Riecke TV, Sedinger BS, Arnold TW, Gibson D, Koons DN, Lohman MG, Schaub M, Williams PJ, Sedinger JS (<strong>2022</strong>) A hierarchical model for jointly assessing ecological and anthropogenic impacts on animal demography. <em>Journal of Animal Ecology</em>, <strong>91</strong>, 1612-1626.</p></li>
-<li><p>Riecke TV, Lohman MG, Sedinger BS, Arnold TW, Feldheim CL, Koons DN, Rohwer FC, Schaub M, Williams PJ, Sedinger JS (<strong>2022</strong>) Density-dependence produces spurious relationships among demographic parameters in a harvested species. <em>Journal of Animal Ecology</em>, <strong>91</strong>, 2261-2272.</p></li>
-<li><p>Koons DN, Riecke TV, Boomer GS, Sedinger BS, Sedinger JS, Williams PJ, Arnold TW. (<strong>2022</strong>) A niche for null models in adaptive resource management. <em>Ecology and Evolution</em>, <strong>12</strong>, e8541.</p></li>
-<li><p>Sedinger BS, Riecke TV, Nicolai CA, Woolstenhulme R, Henry WG, Stewart KM (<strong>2019</strong>) Experimental harvest regulations reveal that water availability during spring, not harvest, influences change in a waterfowl population. <em>Ecology and Evolution</em>, <strong>9</strong>, 12701-12709.</p></li>
+<li><p>Riecke TV, Sedinger BS, Arnold TW, Gibson D, Koons DN, Lohman MG,
+Schaub M, Williams PJ, Sedinger JS (<strong>2022</strong>) A
+hierarchical model for jointly assessing ecological and anthropogenic
+impacts on animal demography. <em>Journal of Animal Ecology</em>,
+<strong>91</strong>, 1612-1626.</p></li>
+<li><p>Riecke TV, Lohman MG, Sedinger BS, Arnold TW, Feldheim CL, Koons
+DN, Rohwer FC, Schaub M, Williams PJ, Sedinger JS
+(<strong>2022</strong>) Density-dependence produces spurious
+relationships among demographic parameters in a harvested species.
+<em>Journal of Animal Ecology</em>, <strong>91</strong>,
+2261-2272.</p></li>
+<li><p>Koons DN, Riecke TV, Boomer GS, Sedinger BS, Sedinger JS,
+Williams PJ, Arnold TW. (<strong>2022</strong>) A niche for null models
+in adaptive resource management. <em>Ecology and Evolution</em>,
+<strong>12</strong>, e8541.</p></li>
+<li><p>Sedinger BS, Riecke TV, Nicolai CA, Woolstenhulme R, Henry WG,
+Stewart KM (<strong>2019</strong>) Experimental harvest regulations
+reveal that water availability during spring, not harvest, influences
+change in a waterfowl population. <em>Ecology and Evolution</em>,
+<strong>9</strong>, 12701-12709.</p></li>
 </ol>
 <p> </p>
 <center>
