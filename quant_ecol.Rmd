@@ -16,19 +16,22 @@ I’ve often felt confused and overwhelmed by the complexity and intricacy of de
 
 
 ### Representative Publications
-1. Riecke TV, Gibson D, Sedinger JS, Schaub M. (**2022**) Zero-inflated count distributions for capture-mark-reencounter data. *Ecology and Evolution*, **12**, e9274.
+1. Riecke TV, Fay R, Hegelbach J, Ravussin P-A, Arrigo D, Schaub M. **(2025)**
+Estimating latent individual demographic heterogeneity using structural equation models.
+*Ecology*, **106**
 
-2. Street PA, Riecke TV, Williams PJ, Behnke TL, Sedinger JS. (**2022**) Estimating survival and adoption rates of dependent juveniles. *Ecology and Evolution*, **12**, e9005.
+2. Eisaguirre JM, Lohman MG, Frye GG, Johnson HE, Riecke TV, Williams PJ **(2025)** Estimating spatially
+explicit survival and mortality risk from telemetry data with thinned point process models.
+*Ecology Letters*, **28**, e70092.
 
-3. Riecke TV, Gibson D, Kéry M, Schaub M. (**2021**) Sharing detection heterogeneity information among species in community models of occupancy and abundance can strengthen inference. *Ecology and Evolution*, **11**, 18125-18135.
+3. Riecke TV, Williams PJ, Behnke TL, Gibson D, Leach AG, Sedinger BS, Street PA, Sedinger JS **(2019)** 
+Integrated population models: model assumptions and inference. 
+*Methods in Ecology and Evolution*, **10**, 1072-1082.
 
-4. Riecke TV, Gibson D, Leach AG, Lindberg MS, Schaub M, Sedinger JS. (**2021**) Bayesian mark-recapture-resight-recovery models: increasing user flexibility in the BUGS language. *Ecosphere*, **12**, e03810.
-
-5. Riecke TV, Williams PJ, Behnke TL, Gibson D, Leach AG, Sedinger BS, Street PA, Sedinger JS **(2019)** Integrated population models: model assumptions and inference. *Methods in Ecology and Evolution*, **10**, 1072-1082.
-
-6. Riecke TV, Sedinger BS, Williams PJ, Sedinger JS. **(2019)** Estimating correlations among demographic parameters. *Ecology and Evolution*, **9**, 13521-13531.
-
-7. Riecke TV, Leach AG, Gibson D, Sedinger JS **(2018)** Parameterizing the robust design in the BUGS language: Lifetime carry-over effects of environmental conditions during growth on a long-lived bird. *Methods in Ecology and Evolution*, **9**, 2294-2305.
+4. Riecke TV, Leach AG, Gibson D, Sedinger JS **(2018)** 
+Parameterizing the robust design in the BUGS language: 
+Lifetime carry-over effects of environmental conditions during growth on a long-lived bird. 
+*Methods in Ecology and Evolution*, **9**, 2294-2305.
 
 \  
 

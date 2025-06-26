@@ -1,5 +1,5 @@
 ---
-title: "Climate and demography"
+title: "Climate, environment, and life-history evolution"
 output: 
   html_document:
     toc: false
@@ -12,23 +12,43 @@ output:
 }
 </style>
 
-We live in a rapidly changing world, where anthropogenic actions have tremendous ecological consequences. In the short-term we experience climatic cycling, where inter- and intra-annual variation in temperature, precipitation, and extreme weather events have major effects on population trends of wild organisms. In the long-term, anthropogenic actions are changing global climates irrevocably. Understanding the effects of these changes is critically important for successful conservation ecology, particularly for specialist orgamisms with slow-paced life-history strategies.
-
+The work of Stephen C. Stearns (1989, 1992) has shaped the way I think 
+about evolutionary ecology and population demography. The life-history strategies that 
+organisms employ and the trade-offs that they experience ultimately shape population dynamics.
+At the same time, we live in a rapidly changing world where anthropogenic actions have tremendous ecological consequences. 
+In the short-term, inter- and intra-annual variation in temperature, 
+precipitation, and extreme weather events have major effects on the success of 
+life-history strategies. 
+In the long-term, anthropogenic actions are changing global climates irrevocably. 
+These changes have critical implications for life-history strategies that evolved over millennia.
+Understanding the effects of climatic changes on life-history trade-offs is critically important for successful conservation ecology, particularly for specialist organisms with slow-paced life-history strategies.
 
 ### Representative Publications
 
-1. Forister ML, Grames EM, Halsch CA, Burls KJ, Carroll CF, Bell KL, Jahner JP, Bradford T, Zhang J, Cong Q, Grishin NV, Glassberg J, Shapiro AM, Riecke TV (**2023**) Assessing status and risk for western butterflies in the context of climate change, demographic uncertainty, and heterogeneous data sources. *Ecological Monographs*, **93**, e1584.
+1. Gibson D, Riecke TV, Catlin DH, Hunt KL, Friedrich MJ, Karpanty SM, Koons DK, Fraser JD (**2023**) 
+Climate change and industrial fishing practices codetermine survival of a long-lived seabird. 
+*Global Change Biology*, **29**, 324-340.
 
-2. Gibson D, Riecke TV, Catlin DH, Hunt KL, Friedrich MJ, Karpanty SM, Koons DK, Fraser JD **(2023)** Climate change and industrial fishing practices codetermine survival of a long-lived seabird. *Global Change Biology*, **29**, 324-340.
+2. Riecke TV, Hegelbach J, Schaub M (**2023**) 
+Senescence and mating strategy interact and conflict to drive reproductive success in a passerine. 
+*Journal of Animal Ecology*, **92**, 838-849.
 
-3. Lohman MG, Riecke TV, Acevedo CR, Person BT, Schmutz JA, Uher-Koch BD, Sedinger JS **(2019)** Changes in behavior are unable to disrupt a trophic cascade involving a specialist herbivore and its food plant. *Ecology and Evolution*, **9**, 5281-5291.
+3. Acevedo CR, Riecke TV, Leach AG, Lohman MG, Sedinger JS. (**2020**) 
+Are all eggs created equal? Hierarchical models reveal fitness constraints in a long-lived specialist herbivore. 
+*Journal of Animal Ecology*, **89**, 1978-1987.
 
-4. Gibson D, Riecke TV, Keyes T, Depkin C, Fraser J, Catlin DH (**2018**) Application of Bayesian robust design model to assess the impacts of a hurricane on shorebird demography. *Ecosphere*, **9**, e02334.
+4. Leach AG, Riecke TV, Sedinger JS, Ward DH, Boyd WS (**2020**) 
+Mate fidelity improves survival and breeding propensity of a long-lived bird. 
+*Journal of Animal Ecology*, **89**, 2290-2299.
+
+5. Leach AG, Sedinger JS, Riecke TV, Van Dellen AW, Ward DH, Boyd WS (**2019**) 
+Brood size affects future reproduction in a long-lived bird with precocial young. 
+*The American Naturalist*, **193**, 458-471.
 
 
 
 \  
 
 <center>
-![](./images/size_selection.png)
+![](./images/dipper_senescence_mating_system.png)
 </center>

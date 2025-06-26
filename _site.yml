@@ -14,13 +14,11 @@ navbar:
   left:
     - text: "Research"
       menu:
+       - text: "Applied population ecology"
+         href: ./pop_mod.html
        - text: "Understanding quantitative ecology"
          href: ./quant_ecol.html
-       - text: "Optimizing population models"
-         href: ./pop_mod.html
-       - text: "Life history theory and strategies"
-         href: ./life_hist.html
-       - text: "Climate and demography"
+       - text: "Climate, environment, and life-history evolution"
          href: ./clim.html   
     - text: "Curriculum Vitae"
       href: ./Riecke_CV_web.pdf     
