@@ -26,16 +26,17 @@ land use, and climate change.
 
 ### Representative Publications
 
-1. Forister ML, Grames EM, Halsch CA, Burls KJ, Carroll CF, Bell KL, Jahner JP, Bradford T, Zhang J, Cong Q, Grishin NV, Glassberg J, Shapiro AM, Riecke TV (**2023**) 
+1. Martin EC, Riecke TV, Ravussin PA, Arrigo D, Schaub M (**2026**) 
+Identifying the demographic pathways linking environmental covariates to population dynamics in an avian migrant. 
+*Ecological Applications*, **36**, e70166
+
+2. Forister ML, Grames EM, Halsch CA, Burls KJ, Carroll CF, Bell KL, Jahner JP, Bradford T, Zhang J, Cong Q, Grishin NV, Glassberg J, Shapiro AM, Riecke TV (**2023**) 
 Assessing status and risk for western butterflies in the context of climate change, demographic uncertainty, and heterogeneous data sources. 
 *Ecological Monographs*, **93**, e1584
 
-2. Riecke TV, Sedinger BS, Arnold TW, Gibson D, Koons DN, Lohman MG, Schaub M, Williams PJ, Sedinger JS (**2022**) A hierarchical model for jointly assessing ecological and anthropogenic impacts on animal demography. *Journal of Animal Ecology*, **91**, 1612-1626.
+3. Riecke TV, Sedinger BS, Arnold TW, Gibson D, Koons DN, Lohman MG, Schaub M, Williams PJ, Sedinger JS (**2022**) A hierarchical model for jointly assessing ecological and anthropogenic impacts on animal demography. *Journal of Animal Ecology*, **91**, 1612-1626.
 
-3. Riecke TV, Lohman MG, Sedinger BS, Arnold TW, Feldheim CL, Koons DN, Rohwer FC, Schaub M, Williams PJ, Sedinger JS (**2022**) Density-dependence produces spurious relationships among demographic parameters in a harvested species. *Journal of Animal Ecology*, **91**, 2261-2272.
-
-4. Koons DN, Riecke TV, Boomer GS, Sedinger BS, Sedinger JS, Williams PJ, Arnold TW. (**2022**) A niche for null models in adaptive resource management. *Ecology and Evolution*, **12**, e8541.
-
+4. Riecke TV, Lohman MG, Sedinger BS, Arnold TW, Feldheim CL, Koons DN, Rohwer FC, Schaub M, Williams PJ, Sedinger JS (**2022**) Density-dependence produces spurious relationships among demographic parameters in a harvested species. *Journal of Animal Ecology*, **91**, 2261-2272.
 
 
 \  
